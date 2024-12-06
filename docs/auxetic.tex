@@ -1,0 +1,115 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amscd}
+\usepackage{amsthm}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\graphicspath{ {./} }
+
+\title{Auxetic prosthetics}
+\author{Daniel Wei, Mingruifu Lin}
+\date{October 2024}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\pagebreak
+
+\begin{abstract}
+  Nowadays, too many systems work mechanically, which is very unlike the more natural way in which the body works. In order to allow a possibly larger variety of movements into prosthetics, we invent smooth movable structures based on auxetic units. The purpose of this research is the development of a software that produces the desired foldable and mobile 3D shape from smooth parametric surfaces. This paper presents one general solution to any such problem.
+\end{abstract}
+
+\pagebreak
+
+\section{Science fair}
+
+\subsection{Classification, categories, type}
+
+\subsubsection{Classification}
+\begin{itemize}
+  \item Collegial
+\end{itemize}
+
+\subsubsection{Categories}
+\begin{itemize}
+  \item Pure sciences: Mathematics, Physics
+  \item Engineering: Mechanical engineering, software development
+  \item Let's try to include artificial intelligence somewhere
+\end{itemize}
+
+\subsubsection{Type}
+\begin{itemize}
+  \item Design
+\end{itemize}
+
+\section{Overview}
+
+\subsection{Inputs}
+\begin{itemize}
+  \item The idle carcass in the form of a parametric function \( C: \mathbb{R}^2 \rightarrow \mathbb{R}^3 \) defined by \( C: (s, t) \mapsto (x(s, t), y(s, t), z(s, t)) \) where \( s, t \) are bounded intervals of the real number line.
+  \item The set of movements also in the form of parametric equations each representing a particular final state for each movement.
+\end{itemize}
+
+\subsection{Outputs}
+\begin{itemize}
+  \item A 2D flat, printable, expandable surface that settles into its 3D shape when each auxetic unit is fully extended. The whole is mathematically represented by a graph of discrete points with edges of particular lengths.
+  \item To allow movement, some auxetic units are radially assymetrical allowing more expansion/contraction along a certain direction, thereby transmitting any force to the next one in the chain with negligible effect on its surrounding. Only contraction is allowed, so the surface is designed to be folded into its most expanded state.
+\end{itemize}
+
+\subsection{Methods}
+\begin{itemize}
+  \item Using a certain resolution*, compute the curvature at each such pixel. Cut the manifold into separate areas along high curvature curves. Put auxetic units equidistantly on these curves using the next method. Using a certain resolution*, compute the derivatives at each pixel. Along the derivative direction, put number of auxetic units proportional to value of derivative, where 1 is identity. Auxetic units legs remedy to proportionality by filling in the remaining missing distance.
+  \item For movement, we do similar computations as above. This creates more cuts. For the derivative, for each pixel, take the highest one computed.
+  \item Auxetic units responsible for transmitting forces are radially assymetrical, where the direction of transmission has higher radius, so that any rotation has minimal lateral effect. Auxetic units that require contraction have higher radius on the contracting ends and smaller radius on the receiving end. Auxetic units that are relatively immobile have smaller radius compared to their leg length.
+\end{itemize}
+
+\subsection{Material}
+A compound design consisting of PLA (hard plastic) and TPU (soft plastic) is used.
+
+PLA is used in regions requiring:
+\begin{itemize}
+  \item More structural rigidity.
+  \item More mechanical precision.
+\end{itemize}
+
+TPU is used in regions requiring:
+\begin{itemize}
+  \item More curving.
+  \item More mechanical leeway.
+\end{itemize}
+
+When the surface is used in fluid transport or storage, it can be covered in a thin, elastic material. Also, auxetic surfaces do not carry large forces through their movement, so they are more suited for milder bodily motions.
+
+\section{Theoretical basis}
+
+\subsection{Generating auxetic distributions in 2D}
+Square auxetic units. Deformed tiling inherited from taking inverse. Radius and legs.
+
+\subsection{Force transmission and stationary curves}
+Radial assymetry. DE and variational calculus?
+
+\section{Software and printing}
+
+\subsection{Computability}
+
+\subsection{Mesh generation}
+
+\subsection{Choosing materials}
+
+\section{Practical guide}
+
+\subsection{Using the software}
+
+\subsection{Assembling and folding}
+
+\subsection{Motorization}
+
+\end{document}
