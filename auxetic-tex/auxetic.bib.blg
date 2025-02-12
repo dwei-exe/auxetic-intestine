@@ -1,0 +1,5 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'auxetic.bib.blg'
+[80] biber-darwin:340> INFO - === Sun Feb  9, 2025, 12:28:09
+[246] Utils.pm:410> ERROR - Cannot find 'auxetic.bib.bcf'!
+[247] Biber.pm:136> INFO - ERRORS: 1

@@ -1,0 +1,91 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{meshparam}{online}{}
+      \name{author}{3}{}{%
+        {{hash=3eccb045917136386d038f69b662d505}{%
+           family={Kai},
+           familyi={K\bibinitperiod},
+           given={Hormann},
+           giveni={H\bibinitperiod}}}%
+        {{hash=62f3b41bdcddebdcafe431aea214a2a8}{%
+           family={Bruno},
+           familyi={B\bibinitperiod},
+           given={Levy},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9199d0b1fc1be8fba1c061cc40c419ba}{%
+           family={Alla},
+           familyi={A\bibinitperiod},
+           given={Sheffer},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{596a21f35a87d952295ce4ec0ad18e7a}
+      \strng{fullhash}{596a21f35a87d952295ce4ec0ad18e7a}
+      \strng{bibnamehash}{596a21f35a87d952295ce4ec0ad18e7a}
+      \strng{authorbibnamehash}{596a21f35a87d952295ce4ec0ad18e7a}
+      \strng{authornamehash}{596a21f35a87d952295ce4ec0ad18e7a}
+      \strng{authorfullhash}{596a21f35a87d952295ce4ec0ad18e7a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 02.09.2025)}
+      \field{title}{Mesh Parametrization: Theory and Practice}
+      \verb{urlraw}
+      \verb https://www.inf.usi.ch/hormann/parameterization/CourseNotes.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.inf.usi.ch/hormann/parameterization/CourseNotes.pdf
+      \endverb
+      \keyw{mesh,parametrization}
+    \endentry
+    \entry{tachi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c7a3310c3bdbe39c9bcb45b6a7ec3c45}{%
+           family={Tachi},
+           familyi={T\bibinitperiod},
+           given={Tomohiro},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7a3310c3bdbe39c9bcb45b6a7ec3c45}
+      \strng{fullhash}{c7a3310c3bdbe39c9bcb45b6a7ec3c45}
+      \strng{bibnamehash}{c7a3310c3bdbe39c9bcb45b6a7ec3c45}
+      \strng{authorbibnamehash}{c7a3310c3bdbe39c9bcb45b6a7ec3c45}
+      \strng{authornamehash}{c7a3310c3bdbe39c9bcb45b6a7ec3c45}
+      \strng{authorfullhash}{c7a3310c3bdbe39c9bcb45b6a7ec3c45}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 02.09.2025)}
+      \field{title}{Architectural Origami}
+      \verb{urlraw}
+      \verb https://courses.csail.mit.edu/6.849/fall10/lectures/L23_images.pdf
+      \endverb
+      \verb{url}
+      \verb https://courses.csail.mit.edu/6.849/fall10/lectures/L23_images.pdf
+      \endverb
+      \keyw{origami,architecture}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

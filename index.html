@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Auxetic</title>
+  </head>
+  <body>
+    <canvas id="original" width="800" height="800"></canvas>
+    <canvas id="plotted" width="800" height="800"></canvas>
+    <canvas id="canvas" width="800" height="800"></canvas>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script src="/mathjs" type="text/javascript"></script>
+    <script type="module" src="/public/linear-min.js"></script>
+    <script type="module" src="/public/eng.js"></script>
+    <script type="module" src="/public/index.js"></script>
+  </body>
+</html>
