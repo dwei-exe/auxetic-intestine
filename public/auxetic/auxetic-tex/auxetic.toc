@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{}%
+\contentsline {section}{\numberline {2}Materials and Methods}{3}{}%
+\contentsline {section}{\numberline {3}Outline of Algorithm}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Boundary}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Parametrization}{3}{}%
+\contentsline {subsection}{\numberline {3.3}Choice of metric}{5}{}%
+\contentsline {subsection}{\numberline {3.4}Auxetics}{5}{}%
+\contentsline {section}{\numberline {4}Morphing}{6}{}%
+\contentsline {section}{\numberline {5}Results and Discussion}{7}{}%
+\contentsline {section}{\numberline {6}Software Details}{7}{}%
+\contentsline {subsection}{\numberline {6.1}OBJ Graph Conversion}{7}{}%
+\contentsline {subsection}{\numberline {6.2}Boundary Settings}{7}{}%
+\contentsline {subsection}{\numberline {6.3}3D Models}{8}{}%
+\contentsline {section}{\numberline {7}Conclusion}{8}{}%
+\contentsline {subsection}{\numberline {7.1}Examples}{9}{}%

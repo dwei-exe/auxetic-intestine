@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  10 FEB 2025 23:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  3 APR 2025 23:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/euphrasycosette/User/Code/auxetic-tex/auxetic.tex
-(/Users/euphrasycosette/User/Code/auxetic-tex/auxetic.tex
+**/Users/euphrasycosette/User/Code/personal/public/auxetic/auxetic-tex/auxetic.tex
+(/Users/euphrasycosette/User/Code/personal/public/auxetic/auxetic-tex/auxetic.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -640,34 +640,79 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `auxetic.toc'.
 
- [2] [3] [4] [5]
-Overfull \hbox (25.27054pt too wide) in paragraph at lines 131--131
+ [2] [3] [4]
+<geo-calc.png, id=34, 1539.7525pt x 1186.4325pt>
+File: geo-calc.png Graphic file (type png)
+<use geo-calc.png>
+Package pdftex.def Info: geo-calc.png  used on input line 122.
+(pdftex.def)             Requested size: 277.1435pt x 213.54863pt.
+ [5] [6 <./geo-calc.png>]
+<knob.png, id=44, 365.365pt x 371.3875pt>
+File: knob.png Graphic file (type png)
+<use knob.png>
+Package pdftex.def Info: knob.png  used on input line 191.
+(pdftex.def)             Requested size: 109.61034pt x 111.4171pt.
+<rod.png, id=45, 264.99pt x 714.67pt>
+File: rod.png Graphic file (type png)
+<use rod.png>
+Package pdftex.def Info: rod.png  used on input line 192.
+(pdftex.def)             Requested size: 79.4976pt x 214.40265pt.
+ [7]
+<example3.png, id=50, 256.96pt x 138.5175pt>
+File: example3.png Graphic file (type png)
+<use example3.png>
+Package pdftex.def Info: example3.png  used on input line 202.
+(pdftex.def)             Requested size: 308.35045pt x 166.22015pt.
+ [8 <./knob.png> <./rod.png>]
+<example2.png, id=56, 1808.7575pt x 1186.4325pt>
+File: example2.png Graphic file (type png)
+<use example2.png>
+Package pdftex.def Info: example2.png  used on input line 204.
+(pdftex.def)             Requested size: 325.5623pt x 213.54863pt.
+<example0.png, id=57, 1567.8575pt x 1361.085pt>
+File: example0.png Graphic file (type png)
+<use example0.png>
+Package pdftex.def Info: example0.png  used on input line 206.
+(pdftex.def)             Requested size: 282.20218pt x 244.98473pt.
+ [9 <./example3.png> <./example2.png>]
+<example1.png, id=63, 2860.6875pt x 1465.475pt>
+File: example1.png Graphic file (type png)
+<use example1.png>
+Package pdftex.def Info: example1.png  used on input line 208.
+(pdftex.def)             Requested size: 286.08551pt x 146.55608pt.
+ [10 <./example0.png> <./example1.png>]
+Overfull \hbox (44.6889pt too wide) in paragraph at lines 213--213
+[]\OT1/cmr/m/n/10 Ian Chen et al. \OT1/cmr/m/it/10 Bistable Aux-etic Sur-face Struc-tures\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : $\OT1/cmtt/m/n/10 https : / / parametrichouse .
+ []
+
+
+Overfull \hbox (25.27054pt too wide) in paragraph at lines 213--213
 \OT1/cmr/m/it/10 ory and Prac-tice\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : $\OT1/cmtt/m/n/10 https : / / www . inf . usi . ch / hormann / parameterization /
  []
 
 
-Overfull \hbox (8.89928pt too wide) in paragraph at lines 131--131
+Overfull \hbox (8.89928pt too wide) in paragraph at lines 213--213
 \OT1/cmtt/m/n/10 mit . edu / 6 . 849 / fall10 / lectures / L23 _ images . pdf$\OT1/cmr/m/n/10 . (ac-cessed: 02.09.2025). 
  []
 
-[6] (./auxetic.aux)
+[11] (./auxetic.aux)
 Package logreq Info: Writing requests to 'auxetic.run.xml'.
 \openout1 = `auxetic.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21272 strings out of 476025
- 426344 string characters out of 5790017
- 1867388 words of memory out of 5000000
- 41409 multiletter control sequences out of 15000+600000
+ 21326 strings out of 476025
+ 427334 string characters out of 5790017
+ 1865388 words of memory out of 5000000
+ 41455 multiletter control sequences out of 15000+600000
  521572 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,89p,2039b,1263s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on auxetic.pdf (6 pages, 236769 bytes).
+ 84i,9n,89p,2063b,1265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on auxetic.pdf (11 pages, 3011804 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 158 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patient-Specific Artificial Intestine: Biomechanics of Auxetic Structures</title>
+
+    <link href="/public/css/global.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      canvas {
+        display: block;
+        margin: 0 auto 50px;
+      }
+      #body-container {
+        padding-bottom: 50px;
+      }
+      input {
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Biomechanics of Auxetics</h1>
+
+    <div id="body-container">
+      <h2>Input mesh:</h2>
+      <label for="3d-obj">Choose file to parse (must be closed-boundary OBJ file):</label>
+      <input type="file" id="3d-obj" name="3d-obj" />
+      <br />
+      <label for="width">Units on side 1 of boundary (int):</label>
+      <input type="text" id="width" value="10" />
+      <br />
+      <label for="height">Units on side 2 of boundary (int):</label>
+      <input type="text" id="height" value="6" />
+      <br />
+      <label for="starting">Starting vertex:</label>
+      <input type="text" id="starting" value="6" />
+      <br />
+      <canvas id="original" width="600" height="600"></canvas>
+
+      <h2>Parametrized graph:</h2>
+      <p id="boundary-size"></p>
+      <p>Edge expansion (bottom), rotation and max radius (top)</p>
+      <canvas id="plotted" width="500" height="800"></canvas>
+
+      <h2>Generated mesh:</h2>
+      <div id="download-div"></div>
+      <a href="/public/auxetic/auxetic-tex/auxetic.pdf">Download article PDF</a>
+      <canvas id="canvas" width="600" height="600"></canvas>
+
+      <canvas id="folded" width="600" height="600"></canvas>
+    </div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script type="text/javascript" src="/mathjs"></script>
+    <script type="module" src="/lib/math/linear-min.js"></script>
+    <script type="module" src="/public/auxetic/eng.js"></script>
+    <script type="module" src="/public/auxetic/auxetics.js"></script>
+    <script type="module" src="/public/auxetic/index.js"></script>
+  </body>
+</html>

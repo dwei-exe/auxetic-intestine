@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber auxetic"] 1739158809 "auxetic.bcf" "auxetic.bbl" "auxetic" 1739249166 0
-  "./auxetic.bib" 1739158682 895 65becda1b70d91bfc6140bf8e1ccc699 ""
-  "auxetic.bcf" 1739249165 107822 2ff4eff5df2063d5468e0e2f9edec570 "pdflatex"
+["biber auxetic"] 1739825593 "auxetic.bcf" "auxetic.bbl" "auxetic" 1743737018 0
+  "./auxetic.bib" 1739825593 1095 769b8083e14b381996e119f5ba044404 ""
+  "auxetic.bcf" 1743737018 107889 6a1a3da13559eb3fc255d0c03ab095f3 "pdflatex"
   (generated)
   "auxetic.bbl"
   "auxetic.blg"
   (rewritten before read)
-["pdflatex"] 1739249164 "/Users/euphrasycosette/User/Code/auxetic-tex/auxetic.tex" "auxetic.pdf" "auxetic" 1739249166 0
-  "/Users/euphrasycosette/User/Code/auxetic-tex/auxetic.tex" 1739249163 9062 f3913ebec21656c3dba1bd28aa0086c8 ""
+["pdflatex"] 1743737016 "/Users/euphrasycosette/User/Code/personal/public/auxetic/auxetic-tex/auxetic.tex" "auxetic.pdf" "auxetic" 1743737018 0
+  "/Users/euphrasycosette/User/Code/personal/public/auxetic/auxetic-tex/auxetic.tex" 1743737016 12775 7e11ae5e33094d6ddcda9fc1fc1ba671 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -46,6 +46,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1248133631 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -169,11 +170,18 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1679795168 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1679795002 7883452 89ade1eeefd778291cdd652e3941ba20 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "auxetic.aux" 1739249165 1014 6ea80013c9cd728b1248db782ebdece1 "pdflatex"
-  "auxetic.bbl" 1739158813 3213 2db28c95c24616dc76836e9e2c60588d "biber auxetic"
-  "auxetic.run.xml" 1739249165 2323 94d1b58489b90c581fbbd1befc2cab46 "pdflatex"
-  "auxetic.tex" 1739249163 9062 f3913ebec21656c3dba1bd28aa0086c8 ""
-  "auxetic.toc" 1739249165 385 dfca9ed38b40ae879bed61f76613298d "pdflatex"
+  "auxetic.aux" 1743737018 2100 1ef5cfd08e1c0746fe6add9b43d1304a "pdflatex"
+  "auxetic.bbl" 1739825596 6684 39efe7ff3ef163868a85d9cfdf051db1 "biber auxetic"
+  "auxetic.run.xml" 1743737018 2323 94d1b58489b90c581fbbd1befc2cab46 "pdflatex"
+  "auxetic.tex" 1743737016 12775 7e11ae5e33094d6ddcda9fc1fc1ba671 ""
+  "auxetic.toc" 1743737018 955 f79ac59295e20c0bcfe94bbbdd4ef508 "pdflatex"
+  "example0.png" 1739819306 1050296 b96ae10787eb54ba64bc20199dc555b4 ""
+  "example1.png" 1739819306 1092703 75574a7196ab79dfba89c0df74c3d7dc ""
+  "example2.png" 1739819430 885406 955b0d1933e58b7a9befed8efee5155e ""
+  "example3.png" 1739819430 16055 589460f6fbc4dc4d3438caee0523f5e6 ""
+  "geo-calc.png" 1739819992 120218 4b5eb937ea333056c3f384cdf9539473 ""
+  "knob.png" 1739816057 56583 033b787c55d8050535ee4998cdf65b2d ""
+  "rod.png" 1739816057 42957 798ff7d60c0a0112928ab710caa0fd9f ""
   (generated)
   "auxetic.aux"
   "auxetic.bcf"

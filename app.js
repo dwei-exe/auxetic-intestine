@@ -10,12 +10,13 @@ const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
 const app = express();
 app.use("/public", express.static(path.join(__dirname, "public")));
+app.use("/lib", express.static(path.join(__dirname, "lib")));
 
 app.get("/mathjs", function (req, res) {
   res.sendFile(path.join(__dirname, "node_modules/mathjs/lib/browser/math.js"));
 });
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.join(__dirname, "auxetic.html"));
 });
 
 const server = http.createServer(app);

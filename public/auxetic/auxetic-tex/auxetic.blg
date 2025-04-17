@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'auxetic.blg'
+[97] biber-darwin:340> INFO - === Mon Feb 17, 2025, 15:53:16
+[121] Biber.pm:419> INFO - Reading 'auxetic.bcf'
+[229] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[247] Biber.pm:4419> INFO - Processing section 0
+[261] Biber.pm:4610> INFO - Looking for bibtex file 'auxetic.bib' for section 0
+[262] bibtex.pm:1713> INFO - LaTeX decoding ...
+[267] bibtex.pm:1519> INFO - Found BibTeX data source 'auxetic.bib'
+[334] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[334] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[334] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[334] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[344] bbl.pm:660> INFO - Writing 'auxetic.bbl' with encoding 'UTF-8'
+[347] bbl.pm:763> INFO - Output to auxetic.bbl
