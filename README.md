@@ -24,8 +24,8 @@ This project addresses the **engineering problem** of simulating intestine peris
 
 ## 🏆 Awards & Recognition
 
-- **Montreal Science Fair**: Bronze Award
-- **Provincial Science Fair**: High Distinction
+- **Montreal Science Fair**: Bronze Medal in Pre-University Category
+- **Provincial Science Fair**: High Distinction Quebec Super Expo Sciences
 
 ## Authors
 
